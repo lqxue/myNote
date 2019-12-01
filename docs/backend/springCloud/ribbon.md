@@ -359,11 +359,11 @@ Eureka的服务治理强调了CAP原则中的AP，即可用性和可靠性。它
 
 我们现在关闭一个服务实例，关闭8084端口：
 
-![1574758231721](/home/cloudlandboy/Desktop/desktop/myNote/docs/backend/springCloud/https://cdn.static.note.zzrfdsn.cn/images/springcloud/assets/1574758231721.png)
+![1574758231721](https://cdn.static.note.zzrfdsn.cn/images/springcloud/assets/1574758231721.png)
 
 此时再次访问你会得到错误提示
 
-![1574758211036](/home/cloudlandboy/Desktop/desktop/myNote/docs/backend/springCloud/https://cdn.static.note.zzrfdsn.cn/images/springcloud/assets/1574758211036.png)
+![1574758211036](https://cdn.static.note.zzrfdsn.cn/images/springcloud/assets/1574758211036.png)
 
 但是此时，8081服务其实是正常的。
 

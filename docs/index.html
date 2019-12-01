@@ -18,13 +18,14 @@
   <script>
     window.$docsify = {
       name: 'SYL的笔记',
-      repo: 'https://github.com/cloudlandboy/myNote',
+      repo: 'https://github.com/cloudlandboy',
       loadSidebar: true,
       coverpage: true,
       loadNavbar: true,
       auto2top: true,
       themeColor: '#FF5722',
       subMaxLevel: 6,
+      executeScript: true
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
@@ -32,7 +33,6 @@
   <script src="//unpkg.com/docsify/lib/plugins/emoji.js"></script>
   <script crossorigin="anonymous" integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh"
     src="https://lib.baomitu.com/jquery/3.4.1/jquery.min.js"></script>
-  <script>setTimeout(function () { $.get("https://api.ooopn.com/ciba/api.php", function (r) { if (r.code == 200) { console.log(r); $("#oneyan").html("<small>" + r.date + "</small><p>" + r.ciba + "</p><p>" + r["ciba-en"] + '</p><p><img src="' + r.imgurl + '" height="480" width="330"></img></p><p></p>').css("text-indent", "2em") } }, "json"); }, 1500)</script>
   <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
   <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
   <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
@@ -44,7 +44,7 @@
       repo: 'myNote',
       owner: 'cloudlandboy',
       admin: ['cloudlandboy'],
-      id: md5(location.pathname), 
+      id: md5(location.pathname),
       distractionFreeMode: false
     })
   </script>
