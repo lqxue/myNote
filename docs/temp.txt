@@ -6,4 +6,4 @@
     <summary>pom.xml</summary>
 </details>
 
-https://cdn.static.note.zzrfdsn.cn/images/springcloud/assets/
+https://cdn.static.note.zzrfdsn.cn/images/project/leyoumall/
