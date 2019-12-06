@@ -248,7 +248,7 @@ public interface BrandMapper extends Mapper<Brand> {
 
 我们填写表单并提交，发现报错了。查看控制台的请求详情：
 
-![1530696121642](https://cdn.static.note.zzrfdsn.cn/images/project/leyoumall/1530696121642.png)
+![1575452758269](https://cdn.static.note.zzrfdsn.cn/images/project/leyoumall/1575452758269.png)
 
 
 
@@ -1117,8 +1117,6 @@ public class UploadService {
 发现上传成功：
 
 ![1528210076570](https://cdn.static.note.zzrfdsn.cn/images/project/leyoumall/1528210076570.png)
-
- ![1528210349042](https://cdn.static.note.zzrfdsn.cn/images/project/leyoumall/1528210349042.png)
 
 
 

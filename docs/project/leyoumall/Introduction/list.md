@@ -27,10 +27,17 @@
 
 ## 后台页面
 
-[后台页面下载](/project/leyoumall/assets/leyou-manage-web.tar.gz ':ignore')
+[后台页面下载](/myNote/project/leyoumall/assets/leyou-manage-web.tar.gz ':ignore')
 
 
 
 ## sql文件
 
-[leyou.sql](/project/leyoumall/assets/leyou.sql ':ignore')
+[leyou.sql](/myNote/project/leyoumall/assets/leyou.sql ':ignore')
+
+
+
+## 商品图片
+
+[images.zip](https://www.lanzous.com/i7vc6ub)
+

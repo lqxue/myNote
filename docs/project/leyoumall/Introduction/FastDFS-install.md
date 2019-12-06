@@ -434,7 +434,7 @@ cp objs/nginx /usr/bin/
 
 配置nginx整合fastdfs-module模块
 
-我们需要修改nginx配置文件，在/opt/nginx/config/nginx.conf文件中：
+我们需要修改nginx配置文件，在/opt/nginx/conf/nginx.conf文件中：
 
 ```shell
 vim  /opt/nginx/conf/nginx.conf
@@ -476,9 +476,7 @@ nginx -s stop	# 停止nginx
 nginx -s reload	# 重新载入配置文件
 ```
 
-\# 可通过ps -ef | grep nginx查看nginx是否已启动成功    
-
-![1528194235317](https://cdn.static.note.zzrfdsn.cn/images/project/leyoumall/1528194235317.png)
+可通过ps -ef | grep nginx查看nginx是否已启动成功    
 
 
 
