@@ -45,4 +45,4 @@
 
 ## 前台页面
 
-[前台页面资源](/myNote/docs/project/leyoumall/assets/leyou-portal.zip ':ignore')
+[前台页面资源](/myNote/project/leyoumall/assets/leyou-portal.zip ':ignore')
