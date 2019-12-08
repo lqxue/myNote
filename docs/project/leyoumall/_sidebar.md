@@ -7,4 +7,6 @@
   - [品牌管理和图片上传](project/leyoumall/brand.md)
   - [商品规格管理](project/leyoumall/item-spec-manage.md)
   - [商品管理](project/leyoumall/goods-manage.md)
+  - [Elasticsearch](project/leyoumall/elasticsearch.md)
+  - [Spring Data Elasticsearch](project/leyoumall/springdata-elasticsearch.md)
 

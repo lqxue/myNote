@@ -937,7 +937,11 @@ server {
 }
 ```
 
-重新加载nginx配置：`nginx.exe -s reload`
+
+
+!> 注意：www域名要配置在其他域名的前面，否则会被其他域名先匹配到
+
+重新加载nginx配置：`nginx -s reload`
 
 ![1526462774092](https://cdn.static.note.zzrfdsn.cn/images/project/leyoumall/1526462774092.png)
 
