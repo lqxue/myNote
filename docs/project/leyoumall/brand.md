@@ -1245,7 +1245,7 @@ public class UploadService {
 
 ```java
 /**
-  * 根据id查询分类
+  * 根据品牌id查询分类(修改品牌时回显所属分类)
   *
   * @return
   */

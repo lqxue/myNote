@@ -407,7 +407,7 @@ public class LeyouGatewayApplication {
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>leyou-item</artifactId>
-        <groupId>com.leyou.item</groupId>
+        <groupId>com.leyou</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -455,7 +455,7 @@ public class LeyouGatewayApplication {
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>leyou-item</artifactId>
-        <groupId>com.leyou.item</groupId>
+        <groupId>com.leyou</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>

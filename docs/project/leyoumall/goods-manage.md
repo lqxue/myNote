@@ -301,19 +301,18 @@ var vm = new Vue({
 改造SpecificationService：
 
 ```java
-    /**
-     * 根据gid查询规格参数
-     * @param gid
-     * @return
-     */
-    public List<SpecParam> queryParams(Long gid, Long cid, Boolean generic, Boolean searching) {
-        SpecParam record = new SpecParam();
-        record.setGroupId(gid);
-        record.setCid(cid);
-        record.setGeneric(generic);
-        record.setSearching(searching);
-        return this.specParamMapper.select(record);
+@GetMapping("/params")
+public ResponseEntity<List<SpecParam>> querySpecParams(
+        @RequestParam(name = "gid", required = false) Long gid,
+        @RequestParam(name = "cid", required = false) Long cid,
+        @RequestParam(name = "generic", required = false) Boolean generic,
+        @RequestParam(name = "searching", required = false) Boolean searching) {
+    List<SpecParam> specParams = specificationService.queryParams(gid, cid, generic, searching);
+    if (CollectionUtils.isEmpty(specParams)) {
+        return ResponseEntity.notFound().build();
     }
+    return ResponseEntity.ok(specParams);
+}
 ```
 
 如果param中有属性为null，则不会把属性作为查询条件，因此该方法具备通用性，即可根据gid查询，也可根据cid查询。

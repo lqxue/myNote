@@ -9,4 +9,6 @@
   - [商品管理](project/leyoumall/goods-manage.md)
   - [Elasticsearch](project/leyoumall/elasticsearch.md)
   - [Spring Data Elasticsearch](project/leyoumall/springdata-elasticsearch.md)
+  - [基本商品搜索](project/leyoumall/basi-search.md)
+  - [商品搜索过滤](project/leyoumall/search-filter.md)
 
