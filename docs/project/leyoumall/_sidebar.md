@@ -11,4 +11,5 @@
   - [Spring Data Elasticsearch](project/leyoumall/springdata-elasticsearch.md)
   - [基本商品搜索](project/leyoumall/basi-search.md)
   - [商品搜索过滤](project/leyoumall/search-filter.md)
+  - [商品详情和静态化](project/leyoumall/goods-info.md)
 

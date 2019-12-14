@@ -2,4 +2,5 @@
   - [项目资源清单](project/leyoumall/Introduction/list.md)
   - [自定义组件使用指南](project/leyoumall/Introduction/custom_component.md)
   - [FastDFS安装](project/leyoumall/Introduction/FastDFS-install.md)
+  - [thymeleaf快速上手](project/leyoumall/Introduction/thymeleaf-quick-start.md)
 
