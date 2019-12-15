@@ -12,4 +12,6 @@
   - [基本商品搜索](project/leyoumall/basi-search.md)
   - [商品搜索过滤](project/leyoumall/search-filter.md)
   - [商品详情和静态化](project/leyoumall/goods-info.md)
+  - [rabbitmq的安装](project/leyoumall/rabbitmq-install.md)
+  - [RabbitMQ和数据同步](project/leyoumall/rabbitmq-data-sync.md)
 
