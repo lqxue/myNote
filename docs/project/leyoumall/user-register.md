@@ -28,7 +28,7 @@ leyou-user：父工程，包含2个子工程：
 
 ## 创建父module
 
-打包方式为`war`
+打包方式为`pom`
 
 <details>
     <summary>pom.xml</summary>

@@ -24,7 +24,6 @@
 ```
 
 - `Elasticsearch`学习时使用的是`7.5.0`版本，项目中使用的时`6.4.3`版本
-- 
 
 ## 后台页面
 
@@ -47,3 +46,11 @@
 ## 前台页面
 
 [前台页面资源](/myNote/project/leyoumall/assets/leyou-portal.zip ':ignore')
+
+
+
+## 工具包
+
+`leyou-common`下的工具包：[utils.tar.gz](/media/cloudlandboy/Common/myNote/docs/project/leyoumall/assets/utils.tar.gz ':ignore')
+
+`leyou-auth-common`下的工具包：[jwtUtils.tar.gz](/myNote/docs/project/leyoumall/assets/jwtUtils.tar.gz ':ignore')
