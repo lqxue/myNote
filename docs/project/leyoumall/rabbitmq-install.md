@@ -10,8 +10,6 @@
 
 安装：
 
- ![img](https://cdn.static.note.zzrfdsn.cn/images/project/leyoumall/rabbitmq/clip_image001.png)
-
  ![img](https://cdn.static.note.zzrfdsn.cn/images/project/leyoumall/rabbitmq/clip_image002.png)
 
  ![img](https://cdn.static.note.zzrfdsn.cn/images/project/leyoumall/rabbitmq/clip_image003.png)
@@ -247,7 +245,7 @@ systemctl disable firewalld.service
 cat  /var/log/rabbitmq/rabbit@localhost.log 
 ```
 
-![1576309469494](/home/cloudlandboy/Desktop/rabmit/%E8%B5%84%E6%96%99/rabbitMQ%E5%AE%89%E8%A3%85/https://cdn.static.note.zzrfdsn.cn/images/project/leyoumall/rabbitmq/1576309469494.png)
+![1576309469494](https://cdn.static.note.zzrfdsn.cn/images/project/leyoumall/rabbitmq/1576309469494.png)
 
 这里显示没有配置文件
 
@@ -269,7 +267,7 @@ loopback_users = none
 
 
 
-![1576310818176](/https://cdn.static.note.zzrfdsn.cn/images/project/leyoumall/rabbitmq/1576310818176.png)
+![1576310818176](https://cdn.static.note.zzrfdsn.cn/images/project/leyoumall/rabbitmq/1576310818176.png)
 
 ![img](https://cdn.static.note.zzrfdsn.cn/images/project/leyoumall/rabbitmq/clip_image010-1533941272259.png)
 
