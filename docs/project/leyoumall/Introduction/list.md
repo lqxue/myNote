@@ -51,6 +51,6 @@
 
 ## 工具包
 
-`leyou-common`下的工具包：[utils.tar.gz](/media/cloudlandboy/Common/myNote/docs/project/leyoumall/assets/utils.tar.gz ':ignore')
+`leyou-common`下的工具包：[utils.tar.gz](/myNote/project/leyoumall/assets/utils.tar.gz ':ignore')
 
-`leyou-auth-common`下的工具包：[jwtUtils.tar.gz](/myNote/docs/project/leyoumall/assets/jwtUtils.tar.gz ':ignore')
+`leyou-auth-common`下的工具包：[jwtUtils.tar.gz](/myNote/project/leyoumall/assets/jwtUtils.tar.gz ':ignore')

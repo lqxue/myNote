@@ -45,7 +45,7 @@
       repo: 'myNote',
       owner: 'cloudlandboy',
       admin: ['cloudlandboy'],
-      id: md5(location.pathname),
+      id: md5(location.pathname+(location.hash.split('/').slice(1,3).join('_'))),
       distractionFreeMode: false
     })
   </script>
