@@ -17,3 +17,4 @@
   - [用户注册](project/leyoumall/user-register.md)
   - [用户登录授权中心](project/leyoumall/jwt.md)
   - [购物车服务](project/leyoumall/shopping-cart.md)
+  - [订单支付](project/leyoumall/order-pay.md)

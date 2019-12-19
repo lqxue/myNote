@@ -54,3 +54,9 @@
 `leyou-common`下的工具包：[utils.tar.gz](/myNote/project/leyoumall/assets/utils.tar.gz ':ignore')
 
 `leyou-auth-common`下的工具包：[jwtUtils.tar.gz](/myNote/project/leyoumall/assets/jwtUtils.tar.gz ':ignore')
+
+
+
+## 订单模块
+
+[leyou-order.zip](/myNote/project/leyoumall/assets/leyou-order.zip ':ignore')
