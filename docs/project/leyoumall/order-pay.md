@@ -950,7 +950,7 @@ submit() {
 }
 ```
 
-!> 注意在网关服务中配置订单服务，然后将orderController上的@RequestMapping("order")注解删除
+!> 注意在网关服务中配置订单服务，然后将orderController上的@RequestMapping("order")注解删除(删除后swagger就不能访问了，请求会走orderController，可选择修改页面请求地址)
 
 ```properties
 zuul:
@@ -1000,10 +1000,14 @@ zuul:
 
 ### 删除下单商品
 
-在订单生成后跳转到支付页面之前把下单的商品从localstorage中删除
+在订单生成后跳转到支付页面之前，应该把下单的商品从localstorage中删除，同样也要删除redis购物中的下单商品
 
 ```javascript
 submit() {
+    if (this.carts.length == 0) {
+        //没有下单商品，禁止提交
+        return;
+    }
     ly.verifyUser().then(() => {
         // 把购物车数据处理成订单详情
         const orderDetails = this.carts.map(({userId, ...rest}) => {
@@ -1039,8 +1043,12 @@ submit() {
         }).then(({data}) => {
             //删除掉下单的购物车
             ly.store.del("selectedCarts");
-            // 在线支付，需要到付款页
-            window.location = "pay.html?orderId=" + data + "&actualPay=" + this.actualPay;
+            //把redis购物车中下单的商品删除掉
+            let skuIds = this.carts.map((item) => item.skuId).join(',');
+            ly.http.delete("/cart/" + skuIds).then(() => {
+                // 在线支付，需要到付款页
+                window.location = "pay.html?orderId=" + data + "&actualPay=" + this.actualPay;
+            });
         }).catch((resp) => {
             alert("订单提交失败，可能是缺货!")
         })
@@ -1051,9 +1059,17 @@ submit() {
 }
 ```
 
-再次测试，就OK了。
+### 浏览器回退问题
 
-接下来就轮到支付了。
+订单生成后，使用浏览器的回退按钮，退到结算页没有问题，但是退到购物车页面发现已经创建订单的购物车项还是存在，明明回退浏览器刷新会重新向后台请求购物车数据，而我们在创建订单之后就已经把那些购物车项删除了啊，为什么还是存在，其实是这样的，请求购物车数据发送的是get请求，而浏览器默认会缓存get请求，要想不让浏览器从缓存中拿数据，那就把每次请求的路径都变得不一样
+
+```javascript
+ly.http.get("/cart?t=" + new Date().getTime()).then(({data}) => {
+    this.carts = data;
+    //默认全部选中
+    this.selected = this.carts;
+});
+```
 
 
 

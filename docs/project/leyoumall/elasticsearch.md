@@ -725,12 +725,16 @@ PUT /索引库名/_mapping/类型名称
 }
 ```
 
-- 类型名称：就是前面将的type的概念，类似于数据库中的不同表（已经不建议使用，7.x版本中需要配置，8.x后就会被删除）![1575713163395](https://cdn.static.note.zzrfdsn.cn/images/elsearch/1575713163395.png)
-	 字段名：任意填写	，可以指定许多属性，例如：
+- 类型名称：就是前面讲的type的概念，类似于数据库中的不同表（已经不建议使用，7.x版本中需要配置，8.x后就会被删除）![1575713163395](https://cdn.static.note.zzrfdsn.cn/images/elsearch/1575713163395.png)
+
+   字段名：任意填写	，可以指定许多属性，例如：
 
 - type：类型，可以是text、long、short、date、integer、object等
+
 - index：是否索引，默认为true
+
 - store：是否存储，默认为false
+
 - analyzer：分词器，这里的`ik_max_word`即使用ik分词器
 
 > 示例

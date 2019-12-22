@@ -1,4 +1,8 @@
-## 依赖版本一栏
+# 项目资源清单
+
+
+
+## 依赖版本一览
 
 ```xml
     <parent>
@@ -24,6 +28,15 @@
 ```
 
 - `Elasticsearch`学习时使用的是`7.5.0`版本，项目中使用的时`6.4.3`版本
+
+
+
+## 使用端口一览
+
+![201912111140](https://cdn.static.note.zzrfdsn.cn/images/project/leyoumall/201912111140.png)
+
+- `leyou-manage-web :9001` 后台管理页面(VUE单页应用)
+- `leyou-portal :9002` 商城门户
 
 ## 后台页面
 

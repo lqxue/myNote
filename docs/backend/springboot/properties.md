@@ -395,6 +395,10 @@ springboot默认加载的配置文件名是`application`，如果配置文件名
 
 
 
+!> 使用这个注解加载配置文件就需要配置类使用@component等注解而不是等待@EnableConfigurationProperties激活m，而且不支持yaml，只能是properties
+
+
+
 ## @ImportResource
 
 `@ImportResource`注解用于导入Spring的配置文件，让配置文件里面的内容生效；(就是以前写的springmvc.xml、applicationContext.xml)

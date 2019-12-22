@@ -18,3 +18,5 @@
   - [用户登录授权中心](project/leyoumall/jwt.md)
   - [购物车服务](project/leyoumall/shopping-cart.md)
   - [订单支付](project/leyoumall/order-pay.md)
+  - [支付宝支付(沙箱)](project/leyoumall/alipay.md)
+
