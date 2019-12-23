@@ -496,7 +496,7 @@ eureka:
   client:
     # 此应用为注册中心，false：不向注册中心注册自己。不配置这个启动会抛出一堆错误，不过不影响启动，就是看着闹心
     register-with-eureka: false
-    # 注册中心职责是维护服务实例，false：不检索服务。
+    # 注册中心职责是维护服务实例，false：不检索服务。(因为这是一个单点的EurekaServer，不需要同步其它EurekaServer节点的数据，故设为false)
     fetch-registry: false
     service-url:
       # EurekaServer的地址，现在是自己的地址，如果是集群，需要加上其它Server的地址。

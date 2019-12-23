@@ -498,6 +498,6 @@ const taskId = setInterval(() => {
 
 ### 演示
 
-<video src="https://cdn.static.note.zzrfdsn.cn/images/project/leyoumall/20191222110734.mp4" controls="controls">
+<video src="https://cdn.static.note.zzrfdsn.cn/images/project/leyoumall/20191222110734.mp4" controls="controls" width="100%">
 your browser does not support the video tag
 </video>

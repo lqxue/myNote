@@ -20,4 +20,6 @@
   - [存储函数](backend/mysql/function.md)
   - [流程控制结构](backend/mysql/processcontrol.md)
   - [SQL练习-01](backend/mysql/practice01.md)
+  - [SQL练习-02](backend/mysql/practice02.md)
+  - [SQL练习-03(取两表不同数据)](backend/mysql/practice03.md)
 

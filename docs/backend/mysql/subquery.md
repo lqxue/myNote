@@ -375,63 +375,65 @@ exists后面：
    	WHERE e.employee_id=102;
    ```
 
-   #### from后面
+   
 
-   将子查询结果充当一张表，要求必须起别名
+### from后面
 
-   1. 查询每个部门的平均工资的工资等级
+将子查询结果充当一张表，要求必须起别名
 
-      ``` mysql
-      SELECT  ag_dep.*,g.`grade_level`
-      FROM (
-      	SELECT AVG(salary) ag,department_id
-      	FROM employees
-      	GROUP BY department_id
-      ) ag_dep
-      INNER JOIN job_grades g
-      ON ag_dep.ag BETWEEN lowest_sal AND highest_sal;
-      ```
+1. 查询每个部门的平均工资的工资等级
 
-      
+   ``` mysql
+   SELECT  ag_dep.*,g.`grade_level`
+   FROM (
+   	SELECT AVG(salary) ag,department_id
+   	FROM employees
+   	GROUP BY department_id
+   ) ag_dep
+   INNER JOIN job_grades g
+   ON ag_dep.ag BETWEEN lowest_sal AND highest_sal;
+   ```
 
-   #### exists后面（相关子查询）
+   
 
-   判断子查询是否存在结果，存在返回1，不能存在返回0，可用于筛选判断
+### exists后面（相关子查询）
 
-   1. 查询有员工的部门名
+判断子查询是否存在结果，存在返回1，不能存在返回0，可用于筛选判断
 
-      ``` mysql
-      SELECT department_name
-      FROM departments d
-      WHERE EXISTS(
-      	SELECT *
-      	FROM employees e
-      	WHERE d.`department_id`=e.`department_id`
-      );
-      ```
+1. 查询有员工的部门名
 
-   2. 查询没有女朋友的男神信息
+   ``` mysql
+   SELECT department_name
+   FROM departments d
+   WHERE EXISTS(
+   	SELECT *
+   	FROM employees e
+   	WHERE d.`department_id`=e.`department_id`
+   );
+   ```
 
-      ``` mysql
-      SELECT bo.*
-      FROM boys bo
-      WHERE NOT EXISTS(
-      	SELECT boyfriend_id
-      	FROM beauty b
-      	WHERE bo.`id`=b.`boyfriend_id`
-      );
-      
-      ```
+2. 查询没有女朋友的男神信息
 
-      ``` mysql
-      SELECT bo.*
-      FROM boys bo
-      WHERE bo.id NOT IN(
-      	SELECT boyfriend_id
-      	FROM beauty
-      )
-      ```
+   ``` mysql
+   SELECT bo.*
+   FROM boys bo
+   WHERE NOT EXISTS(
+   	SELECT boyfriend_id
+   	FROM beauty b
+   	WHERE bo.`id`=b.`boyfriend_id`
+   );
+   
+   ```
 
-      
+   ``` mysql
+   SELECT bo.*
+   FROM boys bo
+   WHERE bo.id NOT IN(
+   	SELECT boyfriend_id
+   	FROM beauty
+   )
+   ```
+
+   
 
 能用exists的地方就都可以用In替代
