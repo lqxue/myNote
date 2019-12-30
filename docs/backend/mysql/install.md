@@ -2,18 +2,22 @@
 
 ## mysql的安装
 
-- Windows
+- [Windows](https://www.runoob.com/mysql/mysql-install.html) （下拉看**Windows 上安装 MySQL部分**）
 - [Linux](https://note.zzrfdsn.cn/note/root/cloudlandboy/linux/1566488563139.html)
 
 ## 启动和停止MySQL服务
 
 - Windows
 
-  方式一：通过计算机管理方式
-  右击计算机—管理—服务—启动或停止MySQL服务
-  方式二：通过命令行方式
-  启动：net start mysql服务名
-  停止：net stop mysql服务名
+  - 方式一：通过计算机管理方式
+
+    右击计算机—管理—服务—启动或停止MySQL服务
+
+  - 方式二：通过命令行方式
+
+    启动：net start mysql服务名
+
+    停止：net stop mysql服务名
 
 - Linux
 
