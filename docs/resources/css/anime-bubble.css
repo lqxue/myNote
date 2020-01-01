@@ -16,6 +16,7 @@
     }
 }
 h1.newYear{
+    position: relative;
     -moz-user-select: none;
     -webkit-user-select: none;
     font-weight: bold;
