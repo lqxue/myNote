@@ -10,4 +10,7 @@
 
 - Struts
   - [struts01](/myNote/html/mindView.html?md=struts01 ':ignore')
+  - [struts02](/myNote/html/mindView.html?md=struts02 ':ignore')
+  - [struts03](/myNote/html/mindView.html?md=struts03 ':ignore')
+  - [struts04](/myNote/html/mindView.html?md=struts04 ':ignore')
 
