@@ -63,8 +63,10 @@
         #jsmind_container jmnode:hover {
             white-space: normal;
             z-index: 1997 !important;
-            font-weight: bold;
+            font-weight:600;
             cursor: crosshair;
+            color: #EE3B3B;
+            background-color: #EEE0E5;
         }
 
         jmnode {
@@ -93,6 +95,7 @@
     <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://hizzgdev.github.io/jsmind/js/jsmind.js"></script>
     <script type="text/javascript" src="https://hizzgdev.github.io/jsmind/js/jsmind.draggable.js"></script>
+    <script src="http://hizzgdev.github.io/jsmind/js/jsmind.screenshot.js"></script>
     <script src="https://www.layuicdn.com/layer/layer.js"></script>
     <script src="https://lib.baomitu.com/axios/0.19.0/axios.js"></script>
     <script type="text/javascript">
@@ -164,6 +167,10 @@
                 aEle.click();// 设置点击事件
                 //认为已经保存
                 this.saveed = true;
+            }
+            ,
+            screen_shot() {
+                this.jm.screenshot.shootDownload();
             }
             ,
             help() {
@@ -278,7 +285,7 @@
             let link = util.getQueryVariable("md");
             if (!link) {
                 layer.prompt({
-                    title: '输入mindId，非本站数据输入请求ss地址(带http/https)，新建点取消即可',
+                    title: '输入mindId，非本站数据输入请求地址(带http/https)，新建点取消即可',
                     btnAlign: 'c',
                     formType: 0,
                     closeBtn: 0,

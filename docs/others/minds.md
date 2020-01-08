@@ -4,6 +4,8 @@
 
 [在线简易思维导图](/myNote/html/mindView.html ':ignore')
 
+[基于KityMinder-Editor修改的思维导图](http://mind.clboy.cn/)
+
 
 
 ## 后端
@@ -13,4 +15,9 @@
   - [struts02](/myNote/html/mindView.html?md=struts02 ':ignore')
   - [struts03](/myNote/html/mindView.html?md=struts03 ':ignore')
   - [struts04](/myNote/html/mindView.html?md=struts04 ':ignore')
+- Hibernate
+  - [hibernate01](/myNote/html/mindView.html?md=hibernate01 ':ignore')
+  - [hibernate02](/myNote/html/mindView.html?md=hibernate02 ':ignore')
+  - [hibernate03](/myNote/html/mindView.html?md=hibernate03 ':ignore')
+  - [hibernate04](/myNote/html/mindView.html?md=hibernate04 ':ignore')
 
