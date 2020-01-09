@@ -20,4 +20,9 @@
   - [hibernate02](/myNote/html/mindView.html?md=hibernate02 ':ignore')
   - [hibernate03](/myNote/html/mindView.html?md=hibernate03 ':ignore')
   - [hibernate04](/myNote/html/mindView.html?md=hibernate04 ':ignore')
+- Spring
+  - [spring01](http://mind.clboy.cn/?md=spring01)
+  - [spring02](http://mind.clboy.cn/?md=spring02)
+  - [spring-JDBC](http://mind.clboy.cn/?md=spring-JDBC)
+  - [ssh-integration (SSH整合)](http://mind.clboy.cn/?md=ssh-integration)
 
