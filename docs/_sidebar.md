@@ -11,7 +11,7 @@
   - [ECMAScript](frontend/ecmascript/_sidebar.md)
   - [VUE入门](frontend/vue/_sidebar.md)
 - **综合**
-  - [思维导图](common/_sidebar.md)
+  - [思维导图](common/minds/_sidebar.md)
 - **项目**
   - [乐优商城](project/leyoumall/_sidebar.md)
 - **其他**
