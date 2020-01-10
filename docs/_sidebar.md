@@ -6,18 +6,15 @@
   - [WebService](backend/webservice/_sidebar.md)
   - [Spring Boot](backend/springboot/_sidebar.md)
   - [Spring Cloud](backend/springCloud/_sidebar.md)
-
 - **前端**
   - [node](/frontend/node/_sidebar.md)
   - [ECMAScript](frontend/ecmascript/_sidebar.md)
   - [VUE入门](frontend/vue/_sidebar.md)
-
-- 项目
+- **综合**
+  - [思维导图](common/_sidebar.md)
+- **项目**
   - [乐优商城](project/leyoumall/_sidebar.md)
-
 - **其他**
-
-  - [思维导图](others/minds.md)
 
   - [deepin](others/deepin/_sidebar.md)
   - [IDEA](others/idea/_sidebar.md)
