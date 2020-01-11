@@ -31,7 +31,10 @@
   - [Java网络编程](http://mind.clboy.cn/?md=java%2fjava28)
   - [Java多线程](http://mind.clboy.cn/?md=java%2fjava29)
   - [Java8新特性](http://mind.clboy.cn/?md=java%2fjava30)
-
+  - [JavaIO流01](http://mind.clboy.cn/?md=java%2fIO-01)
+  - [JavaIO流02](http://mind.clboy.cn/?md=java%2fIO-02)
+  - [Class对象](http://mind.clboy.cn/?md=java%2fclass01)
+  - [Java类加载器(ClassLoader)](http://mind.clboy.cn/?md=java%2fclassLoader01)
 - Struts
   - [struts01](/myNote/html/mindView.html?md=struts01 ':ignore')
   - [struts02](/myNote/html/mindView.html?md=struts02 ':ignore')
@@ -47,4 +50,6 @@
   - [spring02](http://mind.clboy.cn/?md=spring02)
   - [spring-JDBC](http://mind.clboy.cn/?md=spring-JDBC)
   - [ssh-integration (SSH整合)](http://mind.clboy.cn/?md=ssh-integration)
-
+- Mybatis
+  - [mybatis介绍](http://mind.clboy.cn/?md=ssm%2fmybatis)
+  - [mybatis几个重要的类](http://mind.clboy.cn/?md=ssm%2fmybatis-key-class)
