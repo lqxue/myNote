@@ -266,7 +266,7 @@
 
 我们的实体类和表中的列名一致，一点问题也没有
 
-我们把department表的departmentName列名改为department-name看看会发生什么
+我们把department表的departmentName列名改为department_name看看会发生什么
 
 访问：<http://localhost:8080/dep/1>获取数据
 
