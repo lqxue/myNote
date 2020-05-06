@@ -7,12 +7,14 @@
   - [Spring Boot](backend/springboot/_sidebar.md)
   - [Spring Cloud](backend/springCloud/_sidebar.md)
 - **前端**
-  - [node](/frontend/node/_sidebar.md)
+  - [node](/frontend/node/md/_sidebar.md)
   - [ECMAScript](frontend/ecmascript/_sidebar.md)
   - [VUE入门](frontend/vue/_sidebar.md)
 - **综合**
+  
   - [思维导图](common/minds/_sidebar.md)
 - **项目**
+  
   - [乐优商城](project/leyoumall/_sidebar.md)
 - **其他**
 
