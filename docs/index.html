@@ -70,7 +70,7 @@
       distractionFreeMode: false
     });
     function getId() {
-      return md5(location.pathname + (location.hash.replace(/\?\S+=.*/, '').split('/').slice(1, 3).join('_')));
+      return md5(location.pathname + 'myNote/' + (location.hash.replace(/\?\S+=.*/, '').split('/').slice(1, 3).join('_')));
     }
   </script>
   <!-- <script src="https://cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> -->
