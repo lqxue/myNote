@@ -2,8 +2,11 @@
 
 这是我的个人笔记，方便日后复习和速查
 
-在线阅读：[https://cloudlandboy.github.io/myNote](https://cloudlandboy.github.io/myNote)
+在线阅读：
 
-以前是写html或者markdown然后一个个上传至服务器：[https://note.zzrfdsn.cn/](https://note.zzrfdsn.cn/)
+- [https://note.clboy.cn/](https://note.clboy.cn/)
 
-现在用git管理更加方便
+- [https://cloudlandboy.github.io/myNote](https://cloudlandboy.github.io/myNote)
+
+- [https://note.zzrfdsn.cn/](https://note.zzrfdsn.cn/) （以前的）
+
