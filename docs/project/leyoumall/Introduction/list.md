@@ -40,13 +40,13 @@
 
 ## 后台页面
 
-[后台页面下载](/myNote/project/leyoumall/assets/leyou-manage-web.tar.gz ':ignore')
+[后台页面下载](/project/leyoumall/assets/leyou-manage-web.tar.gz ':ignore')
 
 
 
 ## sql文件
 
-[leyou.sql](/myNote/project/leyoumall/assets/leyou.sql ':ignore')
+[leyou.sql](/project/leyoumall/assets/leyou.sql ':ignore')
 
 
 
@@ -58,18 +58,18 @@
 
 ## 前台页面
 
-[前台页面资源](/myNote/project/leyoumall/assets/leyou-portal.zip ':ignore')
+[前台页面资源](/project/leyoumall/assets/leyou-portal.zip ':ignore')
 
 
 
 ## 工具包
 
-`leyou-common`下的工具包：[utils.tar.gz](/myNote/project/leyoumall/assets/utils.tar.gz ':ignore')
+`leyou-common`下的工具包：[utils.tar.gz](/project/leyoumall/assets/utils.tar.gz ':ignore')
 
-`leyou-auth-common`下的工具包：[jwtUtils.tar.gz](/myNote/project/leyoumall/assets/jwtUtils.tar.gz ':ignore')
+`leyou-auth-common`下的工具包：[jwtUtils.tar.gz](/project/leyoumall/assets/jwtUtils.tar.gz ':ignore')
 
 
 
 ## 订单模块
 
-[leyou-order.zip](/myNote/project/leyoumall/assets/leyou-order.zip ':ignore')
+[leyou-order.zip](/project/leyoumall/assets/leyou-order.zip ':ignore')

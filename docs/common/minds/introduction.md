@@ -2,7 +2,7 @@
 
 > 查看地址：
 
-[在线简易思维导图](/myNote/html/mindView.html ':ignore')
+[在线简易思维导图](/html/mindView.html ':ignore')
 
 [基于KityMinder-Editor修改的思维导图](http://mind.clboy.cn/)
 

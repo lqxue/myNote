@@ -1335,7 +1335,7 @@ public static String generateCode(int len){
 }
 ```
 
-[工具包](/myNote/project/leyoumall/assets/utils.tar.gz ':ignore')
+[工具包](/project/leyoumall/assets/utils.tar.gz ':ignore')
 
 ### UserController
 

@@ -93,7 +93,7 @@ RabbitMQ是基于AMQP的一款消息管理系统
 
 > 打开demo-rabbitmq项目，学习RabbitMQ
 
-[demo-rabbitmq.tar.gz](/myNote/docs/project/leyoumall/https://cdn.static.note.zzrfdsn.cn/images/project/leyoumall/demo-rabbitmq.tar.gz ':ignore')
+[demo-rabbitmq.tar.gz](/docs/project/leyoumall/https://cdn.static.note.zzrfdsn.cn/images/project/leyoumall/demo-rabbitmq.tar.gz ':ignore')
 
 在cn.demo.rabbitmq.util包下我们抽取一个建立RabbitMQ连接的工具类，方便其他程序获取连接：
 

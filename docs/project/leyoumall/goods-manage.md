@@ -827,7 +827,7 @@ webpack打包多页应用配置比较繁琐，项目结构也相对复杂。这�
 
 ### 导入静态资源
 
-[前台页面资源](/myNote/docs/project/leyoumall/https://cdn.static.note.zzrfdsn.cn/images/project/leyoumall/leyou-portal.zip ':ignore')
+[前台页面资源](/docs/project/leyoumall/https://cdn.static.note.zzrfdsn.cn/images/project/leyoumall/leyou-portal.zip ':ignore')
 
 将静态资源压缩包移动到工作空间下解压，然后IDEA打开
 

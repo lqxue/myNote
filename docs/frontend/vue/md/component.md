@@ -1,6 +1,6 @@
 # 组件
 
-[回顾](https://cloudlandboy.github.io/myNote/#/frontend/vue/start?id=%e7%bb%84%e4%bb%b6%e5%8c%96)
+[回顾](https://cloudlandboy.github.io/#/frontend/vue/start?id=%e7%bb%84%e4%bb%b6%e5%8c%96)
 
 [官方文档](https://cn.vuejs.org/v2/guide/components-registration.html)
 

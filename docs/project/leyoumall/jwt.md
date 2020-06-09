@@ -365,7 +365,7 @@ zuul:
 
 在`leyou-auth-common`中导入资料中的工具类：
 
-[jwtUtils](/myNote/project/leyoumall/assets/jwtUtils.tar.gz ':ignore')
+[jwtUtils](/project/leyoumall/assets/jwtUtils.tar.gz ':ignore')
 
 ![1576484486440](https://cdn.static.note.zzrfdsn.cn/images/project/leyoumall/1576484486440.png)
 

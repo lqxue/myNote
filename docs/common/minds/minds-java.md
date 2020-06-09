@@ -43,19 +43,19 @@
 
 ## Struts
 
-- [struts01](/myNote/html/mindView.html?md=struts01 ':ignore')
-- [struts02](/myNote/html/mindView.html?md=struts02 ':ignore')
-- [struts03](/myNote/html/mindView.html?md=struts03 ':ignore')
-- [struts04](/myNote/html/mindView.html?md=struts04 ':ignore')
+- [struts01](/html/mindView.html?md=struts01 ':ignore')
+- [struts02](/html/mindView.html?md=struts02 ':ignore')
+- [struts03](/html/mindView.html?md=struts03 ':ignore')
+- [struts04](/html/mindView.html?md=struts04 ':ignore')
 
 
 
 ## Hibernate
 
-- [hibernate01](/myNote/html/mindView.html?md=hibernate01 ':ignore')
-- [hibernate02](/myNote/html/mindView.html?md=hibernate02 ':ignore')
-- [hibernate03](/myNote/html/mindView.html?md=hibernate03 ':ignore')
-- [hibernate04](/myNote/html/mindView.html?md=hibernate04 ':ignore')
+- [hibernate01](/html/mindView.html?md=hibernate01 ':ignore')
+- [hibernate02](/html/mindView.html?md=hibernate02 ':ignore')
+- [hibernate03](/html/mindView.html?md=hibernate03 ':ignore')
+- [hibernate04](/html/mindView.html?md=hibernate04 ':ignore')
 
 
 

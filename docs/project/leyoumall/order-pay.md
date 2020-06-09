@@ -4,7 +4,7 @@
 
 把项目资料中提供的`leyou-order`复制到当前项目父工程`leyou-parent`目录下。
 
-[leyou-order.zip](/myNote/project/leyoumall/assets/leyou-order.zip ':ignore')
+[leyou-order.zip](/project/leyoumall/assets/leyou-order.zip ':ignore')
 
 然后就会在IDEA中显示出来<small style="color:green">(没有显示尝试刷新或者重启IDEA，还不显示就使用导入模块)</small>
 
@@ -608,7 +608,7 @@ public class PayHelper {
 
 #### 付款
 
-<iframe src="/myNote/html/qrcode.html" height="380"></iframe>
+<iframe src="/html/qrcode.html" height="380"></iframe>
 
 !> 注意这微信收款账号是某机构的，花个一分钱试一下行了
 

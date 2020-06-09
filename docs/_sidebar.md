@@ -16,6 +16,7 @@
 - **项目**
   
   - [乐优商城](project/leyoumall/_sidebar.md)
+  - [学成在线](project/XCEdu/_sidebar.md)
 - **其他**
 
   - [deepin](others/deepin/_sidebar.md)
