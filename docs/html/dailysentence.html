@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- https://www.clboy.cn -->
 <html lang="en">
 
 <head>
@@ -152,8 +153,8 @@
             </div>
         </div>
     </div>
-    <script crossorigin="anonymous" integrity="sha384-+jvb+jCJ37FkNjPyYLI3KJzQeD8pPFXUra3B/QJFqQ3txYrUPIP1eOfxK4h3cKZP"
-        src="https://lib.baomitu.com/vue/2.6.11/vue.js"></script>
+    <script crossorigin="anonymous" integrity="sha384-OZmxTjkv7EQo5XDMPAmIkkvywVeXw59YyYh6zq8UKfkbor13jS+5p8qMTBSA1q+F"
+        src="https://lib.baomitu.com/vue/2.6.11/vue.min.js"></script>
     <script crossorigin="anonymous" integrity="sha384-+c6noR5inixEMnTNivnL9kxPYXU8BTs4mPNccIhm8/yAbBOLskB2bsNxP93FoIse"
         src="https://lib.baomitu.com/fetch-jsonp/1.1.3/fetch-jsonp.min.js"></script>
     <script>
@@ -172,7 +173,7 @@
             },
             methods: {
                 getData(title) {
-                    fetchJsonp('http://sentence.iciba.com/index.php?c=dailysentence&m=getdetail&title=' + title).then(res => {
+                    fetchJsonp('https://sentence.iciba.com/index.php?c=dailysentence&m=getdetail&title=' + title).then(res => {
                         return res.json();
                     }).then(data => {
                         this.daily = data;
