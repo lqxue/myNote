@@ -25,7 +25,7 @@
 
         .detail-box {
             padding: 0px 29px 30px;
-            width: 999px;
+            width: 888px;
             background-color: #fff;
             font: 14px/1 'Microsoft Yahei', sans-serif, Arial, Verdana;
             margin: auto;
@@ -88,7 +88,7 @@
 
 
         .detail-banner-img {
-            width: 999px;
+            width: 888px;
         }
 
         .detail-content-en {
@@ -131,7 +131,7 @@
     <div class="detail" id="detail">
         <div class="detail-box" v-if="daily">
             <div class="detail-title">
-                <div class="detail-title-month">Jun</div>
+                <div class="detail-title-month">{{month}}月</div>
                 <ul class="detail-title-week">
                     <li class="detail-title-week-item" v-for="info in daily.week_info">
                         <a v-if="info.flag=='show'" class="detail-title-week-item-top" href="javascript:void(0)"
@@ -161,11 +161,14 @@
         const detailVM = new Vue({
             el: '#detail',
             data: {
-                daily: null
+                daily: null,
+                month: 12
             },
             computed: {
                 today() {
-                    let todayStr = new Date().toLocaleDateString().split('/');
+                    let now = new Date();
+                    this.month = now.getMonth() + 1;
+                    let todayStr = now.toLocaleDateString().split('/');
                     todayStr[1].length == 1 && (todayStr[1] = '0' + todayStr[1]);
                     todayStr[2].length == 1 && (todayStr[2] = '0' + todayStr[2]);
                     return todayStr.join('-');
