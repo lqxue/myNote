@@ -93,3 +93,33 @@ const VM = new Vue({
 
 
 
+## CMS前端项目运行不起来
+
+> 有两种解决方案
+
+1. 修改电脑安装的nodejs版本为 `v9`及以下版本
+
+2. 删除项目本地的npm模块，重新安装`node-sass`
+
+   ```shell
+   #卸载npm、cnpm、node-sass
+   npm uninstall npm cnpm node-sass
+   
+   #重新安装node-sass
+   npm install node-sass --save
+   ```
+
+
+
+
+## 日期选择框太丑
+
+> cmspage添加页面的日期选择框由于充满屏幕，显得非常丑
+
+重新安装`element-ui`模块
+
+```shell
+cnpm install element-ui@2.0.10
+```
+
+不知道为什么同样的版本号却和项目中安装好的样式表不一样
