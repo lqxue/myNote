@@ -119,7 +119,8 @@ const VM = new Vue({
 重新安装`element-ui`模块
 
 ```shell
-cnpm install element-ui@2.0.10
+npm uninstall element-ui
+cnpm install element-ui@2.0.10 --save
 ```
 
 不知道为什么同样的版本号却和项目中安装好的样式表不一样
